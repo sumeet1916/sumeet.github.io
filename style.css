@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 12, 46);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 57px;
+    background-color: rgb(24, 24, 67);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover {
+    color: rgb(122, 122, 240);
+    font-size: 1.01rem;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstsection  .leftsection {
+    width: 450px;
+    
+    font-size: 2.7rem;
+    margin: 45px;
+}
+.firstsection{
+    margin: 90px 37px;
+}
+.rightsection {
+    width: 300px;
+
+}
+
+.firstsection .dev{
+    color: red;
+    font-size: 2.7rem;
+
+    
+}
+.firstsection > .leftsection{
+    margin: 20px 0;
+}
+.firstsection > .dev{
+    margin: -38px 0;
+}
+.black{
+    color: rgb(115, 40, 220);
+    font-size:3rem;
+}
+#element{
+    font-size: 2.8rem;
+    color: rgb(115, 40, 220);
+    
+}
+.firstsection #element{
+    margin: 30px 0;
+}
+.passion{
+    font-size: 2.2rem;
+    margin: -24px 0;
+}
+.secondsection{
+    background-color: rgb(8, 12, 46);
+    width: 50px;
+}
+.secondsection .html{
+    background-color: rgb(8, 12, 46);
+    display: flex;
+    margin: -97px 250px;
+    font-size: 1.5rem;
+}
+.line{
+    
+    color: rgb(127, 166, 244);
+    margin: 100px 50px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumeet's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav class="left">
+                Sumeet's Portfolio
+            </nav>
+            <nav class="right">
+                <ul>
+                  <li><a href="/home.html">Home</a></li>
+                   <li><a href="">About Me</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <div class="firstsection">
+            <div class="leftsection">Hi, I am <span class="black">Sumeet</span></div>
+           <div class="passion"> and I am a passionate</div>
+            <br>
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            <img src="web.png" alt="" style="width: 80%;  margin: 119px -43px;">
+        </div>
+    </main>
+    <hr class="line">
+    <div class="secondsection">
+       <div class="html">
+        Skills 
+       </div>  
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Front end Developer', '&amp; Figma Designer.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
